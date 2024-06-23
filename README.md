@@ -26,4 +26,3 @@ Before starting the below requirements, install python>=3.12.0 and pip from http
    python3 backend.py ```
 Open your browser and start surfing stackoverflow posts and it would generate the required energy patterns onto your stackoverflow post
 
-In case of any problem faced in DL Energy Tag Generator, feel free to contact us.

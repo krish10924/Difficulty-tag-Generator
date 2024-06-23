@@ -10,8 +10,7 @@
     "content_scripts": [
       {
         "matches": ["https://*.stackoverflow.com/questions/*"],
-        "js": ["content.js"],
-        "css": ["style.css"]
+        "js": ["content.js"]
       }
     ],
     "web_accessible_resources": [
@@ -31,7 +30,7 @@
         "24": "assets/ext-icon.png",
         "32": "assets/ext-icon.png"
       },
-      "default_title": "Deep_L Tag",
+      "default_title": "Diff_Tag",
       "default_popup": "popup.html"
     },
     "manifest_version": 3

@@ -1,8 +1,4 @@
-// Global Variables
-var CUTOFF = 0.5
 var QUESTION_BODY_CLASSNAME =  'post-layout'
-var TAGS_CLASSNAME = "ml0 list-ls-none js-post-tag-list-wrapper d-inline"
-var BASE_URL = 'https://rishalab.github.io/dl_energy_patterns/'
 
 var body = JSON.stringify(
     document
@@ -29,20 +25,6 @@ function checkIfJava() {
             return true;        }
     }
     return false
-}
-
-function getPatternURLOffset(tagname){
-    switch(tagname){
-        case 'checkpoint': return 'checkpoint.html';
-        case 'pruning': return 'pruning.html';
-        case 'quantization': return 'quantization.html'; 
-        case 'distillation': return 'distillation.html';
-        case 'efficient read write': return 'read-write.html';
-        case 'memory leaks': return 'leaks.html'; 
-        case 'pretrained networks': return 'pretrained.html';
-        case 'tensor operations': return 'tensor-operations.html';
-        default: return '';
-    }
 }
 
 function generateTag(tagname){
