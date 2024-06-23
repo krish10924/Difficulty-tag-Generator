@@ -1,4 +1,3 @@
-from crypt import methods
 from flask import Flask, request, jsonify
 import cleanpost as cp
 from flask_cors import CORS, cross_origin
