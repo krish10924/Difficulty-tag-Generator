@@ -26,7 +26,7 @@ def predict(input_text):
 
 
 
-# text -> clean -> title + body -> keywords of title & body -> get pattern
+# text -> clean -> title + body + code -> keywords of title & body & code-> get pattern
 @app.route('/', methods=['POST'])
 def index():
     # print("inside post...")
