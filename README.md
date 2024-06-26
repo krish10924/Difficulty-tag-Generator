@@ -1,28 +1,35 @@
-### What is Difficulty Tag Generator?
-"Difficulty Tag Generator" is a google chrome extensions for generating energy patterns on your stackoverflow post which deals with hardness problem.
+DATSO: Difficulty Assessment Tool for Stack Overflow Questions
 
-### Get Started
-Before starting the below requirements, install python>=3.12.0 and pip from https://www.python.org/downloads/
+Description
+DATSO (Difficulty Assessment Tool for Stack Overflow Questions) is a Chrome extension designed to assign "difficulty level tags" to Stack Overflow posts. This tool leverages the textual and context-dependent features of questions to assess their difficulty, aiming to improve the response time and quality of answers on the platform. A preliminary evaluation on a benchmark dataset of Java questions achieved an accuracy of 73%, surpassing existing baselines.
 
-1. Clone the repository https://github.com/krish10924/Difficulty-tag-Generator.git by using the following bash command:
-   
-   ```console
-   git clone https://github.com/krish10924/Difficulty-tag-Generator.git
-   ```
-2. load the extension in google chrome by going to "chrome://extensions" then enable the developers option and now on clicking the load unpacked option you could add the required project . And now successfully a extension with name "Diff Tag
-" is successfully loaded.
+System Requirements
+Python 3.12.0 or higher
+Google Chrome browser
 
-3. Now install all the required packages by pip install command, as given in requirement.txt file. Alternatively, use the following command to install all the packages in the python environment:
+Installation and Setup
+Clone the Repository
+Clone the repository using the following command:
+git clone https://github.com/krish10924/Difficulty-tag-Generator.git
 
-   ```python
-   pip install -r requirement.txt
-   ```
-   
-3. After installing all the packages, load this extension to your google chrome extension by using packed unload command on your 'chrome://extensions' tab and then select the extension folder
+Install Dependencies
+Navigate to the backend folder and install the required packages:
+pip install -r requirements.txt
 
-4. Finally, run the application by the following python command:
+Start the Server
+Run the following command to start the server:
+python3 backend.py
 
-   ```cd server
-   python3 backend.py ```
-Open your browser and start surfing stackoverflow posts and it would generate the required energy patterns onto your stackoverflow post
+Load the Extension
+Open Google Chrome and navigate to chrome://extensions.
+Enable the "Developer mode" option.
+Click on "Load unpacked" and select the directory where the extension is located.
+Usage
+Navigate to a Stack Overflow question page containing a question with Java tag.
+Example: Stack Overflow Question
+https://chatgpt.com/share/f2e5cfe2-c1b7-4463-998e-18099d910b49
+https://stackoverflow.com/questions/80476/how-can-i-concatenate-two-arrays-in-java
 
+The extension will automatically analyze the question and assign a difficulty level tag.
+Important Links
+Video Demonstration
