@@ -21,9 +21,9 @@ Navigate to the server folder , run the following command to start the server:
 ```python3 backend.py```
 
 #### Load the Extension
-Open Google Chrome and navigate to chrome://extensions.
+Open Google Chrome and navigate to **chrome://extensions**.
 Enable the "Developer mode" option.
-Click on "Load unpacked" and select the directory where the extension is located.
+Click on **"Load unpacked"** and select the directory where the extension is located.
 ### Usage
 Navigate to a Stack Overflow question page containing a question with **Java** tag.
 Few examples of stackoverflow post are listed below: 
