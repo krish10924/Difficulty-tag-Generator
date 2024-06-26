@@ -8,7 +8,7 @@ Python 3.12.0 or higher
 Google Chrome browser
 
 ## Installation and Setup
-# Clone the Repository
+##### Clone the Repository
 Clone the repository using the following command:
 git clone https://github.com/krish10924/Difficulty-tag-Generator.git
 
@@ -32,5 +32,5 @@ Example: Stack Overflow Question
 + https://stackoverflow.com/questions/42784797/is-there-a-way-to-force-google-speech-api-to-return-only-words-as-response
 
 The extension will automatically analyze the question and assign a difficulty level tag.
-# Important Links
+#### Important Links
 Video Demonstration
