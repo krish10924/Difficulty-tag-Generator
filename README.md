@@ -26,7 +26,7 @@ Enable the "Developer mode" option.
 Click on **"Load unpacked"** and select the directory where the extension is located.
 ### Usage
 Navigate to a Stack Overflow question page containing a question with **Java** tag.
-Few examples of stackoverflow post are listed below: 
+Few examples post are listed below: 
 - https://stackoverflow.com/questions/80476/how-can-i-concatenate-two-arrays-in-java
 * https://stackoverflow.com/questions/154724/when-would-you-use-a-weakhashmap-or-a-weakreference
 + https://stackoverflow.com/questions/42784797/is-there-a-way-to-force-google-speech-api-to-return-only-words-as-response
