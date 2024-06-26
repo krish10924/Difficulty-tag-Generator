@@ -10,15 +10,15 @@ Google Chrome browser
 ### Installation and Setup
 #### Clone the Repository
 Clone the repository using the following command:
-git clone https://github.com/krish10924/Difficulty-tag-Generator.git
+```git clone git clone https://github.com/krish10924/Difficulty-tag-Generator.git```
 
 #### Install Dependencies
 Install the required packages:
-pip install -r requirements.txt
+```pip3 install requirements.txt```
 
 #### Start the Server
 Navigate to the server folder , run the following command to start the server:
-python3 backend.py
+```python3 backend.py```
 
 #### Load the Extension
 Open Google Chrome and navigate to chrome://extensions.
