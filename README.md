@@ -1,4 +1,4 @@
-# DATSO: Difficulty Assessment Tool for Stack Overflow Questions
+# DATSO
 
 ### Description
 DATSO is a Google chrome extension designed to assign "difficulty level tags" to SO posts. This tool leverages the textual and numerical features of posts This focused method can decrease the number of unanswered questions and enhance response times by encouraging users with the appropriate expertise to provide timely and relevant answers based on the question's difficulty level.
