@@ -6,7 +6,8 @@ DATSO (Difficulty Assessment Tool for Stack Overflow Questions) is a Chrome exte
 The process begins with generating embeddings for the textual data using Sentence BERT. These embeddings are then combined with the context-dependent parameters of the post, followed by the SMOTE data balancing technique, and fed into a machine learning classifier to generate relevant tags. The methodology of DATSO is shown below - 
 
 figure
-/assets/approach_diagram.png
+
+[!Seq Diagram](/assets/approach_diagram.png)
 
 DATSO labels the posts into three categories: Basic, Intermediate, and Advanced. This categorization is based on a specific set of annotation rules provided by the following work - 
 
