@@ -13,6 +13,7 @@ var reputation_score=0;
 var gold_badges=0;
 var silver_badges=0;
 var bronze_badges=0;
+try{
 outer=document.getElementsByClassName("-flair")[1]
 var innerSpans = outer.querySelectorAll('span');
         
@@ -41,26 +42,43 @@ var innerSpans = outer.querySelectorAll('span');
                     }
              });
         });
+    }
+    catch(error){
 
+    }
+    var user_id=0
+    var user_date=0
+
+    try{
         e=document.getElementsByClassName("user-gravatar32")[1];
         user_id=parseInt(e.querySelector('a').getAttribute('href').replace(/\D/g, ''));
+        var e1=document.getElementsByClassName('user-info')[1]
+        f=e1.querySelector('.d-flex .user-action-time.fl-grow1 .relativetime')
+        user_date=f.getAttribute('title').slice(0,-1);
+    }
+    catch(error){
 
-var e=document.getElementsByClassName("answer js-answer accepted-answer js-accepted-answer")[0]
-var inn=e.querySelector('.post-layout .answercell.post-layout--right .mt24 .d-flex.fw-wrap.ai-start.jc-end.gs8.gsy .post-signature.flex--item.fl0:nth-of-type(3) .user-info .d-flex .user-action-time.fl-grow1 .relativetime')
-var accepted_date=inn.getAttribute('title').slice(0,-1);
+    }
 
-var e=document.getElementsByClassName("answer js-answer accepted-answer js-accepted-answer")[0]
-var ans_id=e.getAttribute('data-answerid')
+var interval_accepted=0
+var accepted_date=0
+var ans_id=0;
 
-var e=document.getElementsByClassName('user-info user-hover')[1]
-f=e.querySelector('.d-flex .user-action-time.fl-grow1 .relativetime')
-var user_date=f.getAttribute('title').slice(0,-1);
-
+try{
+var e2=document.getElementsByClassName("answer js-answer accepted-answer js-accepted-answer")[0]
+if(e2){
+    var inn=e2.querySelector('.post-layout .answercell.post-layout--right .mt24 .d-flex.fw-wrap.ai-start.jc-end.gs8.gsy .post-signature.flex--item.fl0:nth-of-type(3) .user-info .d-flex .user-action-time.fl-grow1 .relativetime')
+ accepted_date=inn.getAttribute('title').slice(0,-1);
+ ans_id=parseInt(e2.getAttribute('data-answerid'))
 const date1 = new Date(user_date);
 const date2 = new Date(accepted_date);
 const diffInMs = Math.abs(date2 - date1); // Difference in milliseconds
-var interval_accepted = diffInMs / (1000); // Convert to seconds
-
+ interval_accepted = diffInMs / (1000); // Convert to seconds
+}
+}
+catch(error){
+console.log("answer not accepted");
+}
 var body = JSON.stringify(
     document
     .getElementsByClassName('s-prose js-post-body')[0]
