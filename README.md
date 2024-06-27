@@ -23,7 +23,7 @@ Link - https://www.sciencedirect.com/science/article/pii/S0164121223002790
 #### Clone the Repository
 Clone the repository using the following command:
 
-```git clone git clone https://github.com/krish10924/Difficulty-tag-Generator.git```
+```git clone https://github.com/krish10924/Difficulty-tag-Generator.git```
 
 #### Install Dependencies
 Install the required packages:
