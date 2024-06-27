@@ -9,11 +9,7 @@ var anscount =0;
 if (element) {
      anscount = element.getAttribute('data-answercount');
 } 
-
-el =document.getElementsByClassName("reputation-score")[2]
-var rep_score=el.getAttribute('title')
-rep_score=rep_score.replace(/\D/g, '');
-var reputation_score=parseInt(rep_score);
+var reputation_score=0;
 var gold_badges=0;
 var silver_badges=0;
 var bronze_badges=0;
@@ -22,6 +18,10 @@ var innerSpans = outer.querySelectorAll('span');
         
         // Iterate through the inner span elements
         innerSpans.forEach(function(innerSpan) {
+            if(innerSpan.className=="reputation-score")
+            {var rep_score=innerSpan.textContent.trim().replace(/\D/g, '');
+        reputation_score=parseInt(rep_score);
+        }
         var inner=innerSpan.querySelectorAll('span');
              inner.forEach(function(i) {
                  if(i.className=="badge1")
