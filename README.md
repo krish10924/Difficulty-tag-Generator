@@ -7,7 +7,7 @@ The process begins with generating embeddings for the textual data using Sentenc
 
 figure
 
-[!Seq Diagram](/assets/approach_diagram.png)
+![Seq Diagram](/assets/approach_diagram.png)
 
 DATSO labels the posts into three categories: Basic, Intermediate, and Advanced. This categorization is based on a specific set of annotation rules provided by the following work - 
 
