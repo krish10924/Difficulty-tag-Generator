@@ -49,3 +49,5 @@ Few examples posts are listed below:
 The extension will automatically analyze the question and assign a difficulty level tag.
 ### Important Links
 Video Demonstration
+
+https://youtu.be/VSu2Q0zb-X0
