@@ -44,7 +44,8 @@ Navigate to a Stack Overflow question page containing a question with **Java** t
 Few examples posts are listed below: 
 - https://stackoverflow.com/questions/80476/how-can-i-concatenate-two-arrays-in-java
 * https://stackoverflow.com/questions/154724/when-would-you-use-a-weakhashmap-or-a-weakreference
-+ https://stackoverflow.com/questions/42784797/is-there-a-way-to-force-google-speech-api-to-return-only-words-as-response
++ https://stackoverflow.com/questions/42056618/how-to-implement-retry-policies-while-sending-data-to-another-application#:~:text=for%20each%20retry%2C%20pull%20it,shall%20not%20be%20retried%20any
++ https://stackoverflow.com/questions/41594344/how-to-prevent-conflict-animation-with-device-rotation-in-android
 
 The extension will automatically analyze the question and assign a difficulty level tag.
 ### Important Links
