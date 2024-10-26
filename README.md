@@ -3,6 +3,8 @@
 ### Description
 DATSO is a Google chrome extension designed to assign "difficulty level tags" to SO posts. This tool leverages the textual and numerical features of posts This focused method can decrease the number of unanswered questions and enhance response times by encouraging users with the appropriate expertise to provide timely and relevant answers based on the question's difficulty level.
 
+This tool helps the user to analyse the set of questions on a single webpage of SO instead of visiting each page helping them to choose the level of question they want to answer and also it analyse individual SO post also .
+
 The process begins with generating embeddings for the textual data using Sentence BERT. These embeddings are then combined with the context-dependent parameters of the post, followed by the SMOTE data balancing technique, and fed into a machine learning classifier to generate relevant tags. The methodology of DATSO is shown below - 
 
 figure

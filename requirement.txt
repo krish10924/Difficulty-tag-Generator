@@ -1,5 +1,9 @@
-Flask
-flask_cors
+Flask==2.2.5
+flask_cors==4.0.1
 scikit-learn==1.4.2
-Sentence_transformers
-BeautifulSoup
+Sentence_transformers==3.0.1
+BeautifulSoup==4.12.3
+numpy==1.26.4
+scipy==1.13.1
+torch==2.2.2
+python3==3.9.6

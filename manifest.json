@@ -10,6 +10,10 @@
     "content_scripts": [
       {
         "matches": ["https://*.stackoverflow.com/questions/*"],
+        "js": ["content_1.js"]
+      },
+      {
+        "matches": ["https://*.stackoverflow.com/questions/*"],
         "js": ["content.js"]
       }
     ],
