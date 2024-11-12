@@ -42,6 +42,7 @@ Open Google Chrome and navigate to **chrome://extensions**.
 Enable the "Developer mode" option.
 Click on **"Load unpacked"** and select the directory where the extension is located.
 ### Usage
+Open the search portal at the Stack Overflow site for Java-tagged questions or navigate to a specific question with a Java tag. Few examples posts are listed below:
 Navigate to a Stack Overflow question page containing a question with **Java** tag.
 Few examples posts are listed below: 
 - https://stackoverflow.com/questions/80476/how-can-i-concatenate-two-arrays-in-java
